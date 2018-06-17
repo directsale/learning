@@ -6,8 +6,6 @@ function boiso(a){
                boiso=a*n;
 			   array.push(boiso);
 	   }
-	   console.log(array);
-        return array;
+	     return array;
  }
-boiso(2);
-boiso(4);
+module.exports=boiso;
