@@ -14,7 +14,7 @@ function mostFrequentItem(){
 			count++;
 		}
 		else
-		{	temp=ar[i+1];
+		{	temp=ar[i];
 			count=1;
 		}
 		if(most<count)
